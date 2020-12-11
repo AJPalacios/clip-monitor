@@ -1,0 +1,37 @@
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.anchorText {
+    margin: 20px;
+    font-family: 'Barlow';
+    font-weight: 500;
+}
+.img {
+    width: 35%;
+}
+.switchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.MuiButton-outlinedSecondary {
+    border: 1px solid #0074b7 !important;
+    color: #0074b7 !important;
+}
+.MuiButton-outlinedSecondary:hover {
+    background-color: #0074b7;
+}
+.MuiButton-containedSecondary {
+    background-color: #0074b7 !important;
+    color: white;
+}
+.MuiButton-containedSecondary:hover {
+    background-color: #0074b7 !important;
+}
+.MuiButton-root {
+    border-radius: 25px !important;
+}
