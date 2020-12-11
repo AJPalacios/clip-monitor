@@ -22,12 +22,7 @@ const Router = () => {
         <BrowserRouter>
           <NavBar />
           <Routes>
-              <Route path="/" element={<NotImplemented />}/>
-              <Route path="/usuarios" element={ isAuth ? <Navigate to="/" /> : <UsuariosOutlet />} >
-              <Route path="/registro" element={<NotImplemented />} />
-              <Route path="/ingresar" element={<NotImplemented />} />
-              <Route path="/servicios" element={<Services/>} />
-            </Route>
+              <Route path="/" element={<Services/>} />
           </Routes>
       </BrowserRouter>
       </>
